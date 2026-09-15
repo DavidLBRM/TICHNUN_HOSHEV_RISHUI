@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;800&family=Rubik:wght@400;500;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Heebo", "Rubik", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-syne: "Rubik", sans-serif;
+  
+  --color-bg: #F3F6F9;
+  --color-ink: #0D2C4C;
+  --color-accent: #0C5A82;
+}
+
+:root {
+  --bg: #F3F6F9;
+  --ink: #0D2C4C;
+  --accent: #0C5A82;
+  --accent-teal: #009FA1;
+  --accent-amber: #E28743;
+  --ink-faint: rgba(13, 44, 76, 0.05);
+  --ink-muted: rgba(13, 44, 76, 0.65);
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--ink);
+  font-family: 'Heebo', 'Rubik', sans-serif;
+}
+
+::selection {
+  background: var(--accent-teal);
+  color: white;
+}
+
+/* Custom scrollbar styling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Custom scrollbar styling for regular scrollbars to keep it elegant */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(12, 90, 130, 0.15);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(12, 90, 130, 0.3);
+}
+
+/* Upgraded style utility classes matching the professional guidebook mockup */
+.brutalist-border {
+  border: 1px solid #D2DFE5;
+}
+
+.brutalist-card {
+  background-color: #ffffff;
+  border: 1px solid #D2DFE5;
+  box-shadow: 0 4px 12px rgba(12, 90, 130, 0.04);
+  border-radius: 12px;
+}
+
+.brutalist-shadow-sm {
+  box-shadow: 0 2px 4px rgba(12, 90, 130, 0.03);
+}
+
+.brutalist-shadow-md {
+  box-shadow: 0 4px 10px rgba(12, 90, 130, 0.05);
+}
+
+.brutalist-shadow-lg {
+  box-shadow: 0 10px 25px rgba(12, 90, 130, 0.08);
+}
+
+

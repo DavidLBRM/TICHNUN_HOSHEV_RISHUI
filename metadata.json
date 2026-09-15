@@ -1,0 +1,8 @@
+{
+  "name": "בודק תכניות - תכנון חושב רישוי",
+  "description": "סוכן חכם לבדיקה וניתוח של הוראות תכנית בנייה (תקנון) אל מול הנחיות תכנון חושב רישוי (תח''ר), לזיקוק וניקוי הוראות מיותרות ושיפור הניסוח הסטטוטורי.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
